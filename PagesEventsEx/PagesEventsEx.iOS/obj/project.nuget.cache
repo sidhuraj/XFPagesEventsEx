@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Esr3WW3GQjTA15bpI/alZ27sVnVt+B5tRSdlyzzaOc6ZrY69Ad6kVOPL9tn3tq0XaSc+vRjRGSGrvzEfxvkQDw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\santosh\\source\\repos\\PagesEventsEx\\PagesEventsEx\\PagesEventsEx.iOS\\PagesEventsEx.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\santosh\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\santosh\\.nuget\\packages\\xamarin.essentials\\1.2.0\\xamarin.essentials.1.2.0.nupkg.sha512",
+    "C:\\Users\\santosh\\.nuget\\packages\\xamarin.forms\\4.2.0.709249\\xamarin.forms.4.2.0.709249.nupkg.sha512"
+  ],
+  "logs": []
+}

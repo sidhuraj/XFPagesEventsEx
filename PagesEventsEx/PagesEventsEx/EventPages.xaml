@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="PagesEventsEx.EventPages">
+    <ContentPage.Content>
+        <StackLayout>
+
+
+
+            <ListView x:Name="lblDanersList" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="{Binding DancersPhoto}" HeightRequest="60" WidthRequest="60"/>
+                                    <StackLayout Orientation="Vertical">
+                                        <Label Text="{Binding Dancerscountry}" TextColor="White" FontSize="Title"/>
+                                        <Label Text="{Binding Dancersuniverse}" TextColor="White" FontSize="Subtitle"/>
+                                    </StackLayout>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+
+
+            <Label x:Name="lblUserName" Text="UserName" FontSize="Title" TextColor="Red"/>
+
+
+            <Entry x:Name="etUserName" Placeholder="Enter your Name"/>
+
+            <Entry x:Name="etPassword" Placeholder="Enter your Name" IsPassword="True"/>
+
+            <Button x:Name="btnSubmit" Text="Submit"/>
+
+            <CheckBox x:Name="chkHobbies"/>
+
+            <Image x:Name="imgPhoto" Source="prabhu.jpg" WidthRequest="70" HeightRequest="70"/>
+
+            <Switch x:Name="stOnOff"/>
+
+            <Slider x:Name="slValue" Maximum="100"/>
+            
+            
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
